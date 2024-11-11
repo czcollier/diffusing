@@ -1,5 +1,3 @@
-#@title Generation Utilities
-
 import abc
 from dataclasses import dataclass
 import torch

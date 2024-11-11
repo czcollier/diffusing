@@ -1,5 +1,3 @@
-#@title EXIF and Saving helpers
-
 import piexif
 import imagehash
 import piexif.helper
