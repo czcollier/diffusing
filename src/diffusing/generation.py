@@ -132,7 +132,7 @@ class StableDiffusionGenerator(PicGenerator):
     prompt = subject.build_prompt()
 
     (prompt_embeds, neg_prompt_embeds, pooled_prompt_embeds, neg_pooled_prompt_embeds) = get_weighted_text_embeddings_sd3(
-      pipe,
+      self.pipe,
       neg_prompt = subject.neg_prompt,
       prompt = prompt
     )
