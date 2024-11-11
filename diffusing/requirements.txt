@@ -1,0 +1,12 @@
+xformers
+transformers
+git+https://github.com/huggingface/diffusers
+git+https://github.com/xhinker/sd_embed.git@main
+accelerate
+bitsandbytes
+triton
+safetensors
+peft
+imagehash
+piexif
+huggingface_hub[cli]
