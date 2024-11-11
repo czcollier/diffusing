@@ -151,3 +151,10 @@ class StableDiffusionGenerator(PicGenerator):
     ).images
 
     return images, prompt
+
+class StableDiffusionMedGenerator(StableDiffusionGenerator):
+  def build_pipe(self):
+    return StableDiffusion3Pipeline.from_pretrained(
+        "stabilityai/stable-diffusion-3.5-medium",
+        torch_dtype=torch.bfloat16).to("cuda")
+
