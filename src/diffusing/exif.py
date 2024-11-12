@@ -2,7 +2,7 @@ import piexif
 import imagehash
 import piexif.helper
 from datetime import datetime
-from generation import GenerationConfig
+from .generation import GenerationConfig
 
 def save_with_exif(img, gen_config, subject, model_id, path):
   prompt = subject.build_prompt()
