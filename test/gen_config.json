@@ -1,0 +1,8 @@
+{
+  "guidance_scale": 7.5,
+  "steps": 30,
+  "small_dim": 896,
+  "large_dim": 1152,
+  "landscape": false,
+  "num_samples": 1
+}
