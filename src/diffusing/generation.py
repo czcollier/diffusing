@@ -17,7 +17,7 @@ import piexif
 import imagehash
 
 from sd_embed.embedding_funcs import get_weighted_text_embeddings_sd3, get_weighted_text_embeddings_flux1
-from generation_model import (
+from diffusing.generation_model import (
     GenerationConfig,
     Subject,
     Adapter
