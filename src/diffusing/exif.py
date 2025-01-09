@@ -7,7 +7,7 @@ from datetime import datetime
 import json
 from PIL import Image
 from io import BytesIO
-from generation_model import GenerationConfig, Subject
+from diffusing.generation_model import GenerationConfig, Subject
 
 
 def save_with_exif(img, gen_config, subject, model_id, path):
